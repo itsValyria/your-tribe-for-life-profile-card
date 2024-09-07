@@ -8,8 +8,8 @@
     <input id="card-0" name="card-set" type="radio" checked />
     <div card>
       <div class="content">
-        <h2>Steps to Frontend Success</h2>
-        <p>A life well lived.</p>
+        <h2>Dit is een cool project</h2>
+        <p>Boopboop</p>
         <label for="card-1">Learn More</label>
       </div>
     </div>
@@ -17,8 +17,8 @@
     <input id="card-1" name="card-set" type="radio" />
     <div card>
       <div class="content">
-        <h2>Step 1</h2>
-        <p>Write some markup.</p>
+        <h2>Dit is een cool project</h2>
+        <p>Boopboop</p>
         <label for="card-2">Go to 2</label>
       </div>
     </div>
@@ -26,8 +26,8 @@
     <input id="card-2" name="card-set" type="radio" />
     <div card>
       <div class="content">
-        <h2>Step 2</h2>
-        <p>Write some CSS.</p>
+        <h2>Dit is een cool project</h2>
+        <p>Boopboop</p>
         <label for="card-3">Go to 3</label>
       </div>
     </div>
@@ -35,8 +35,8 @@
     <input id="card-3" name="card-set" type="radio" />
     <div card>
       <div class="content">
-        <h2>Step 3</h2>
-        <p>Look up stuff on MDN.</p>
+        <h2>Dit is een cool project</h2>
+        <p>Boopboop</p>
         <label for="card-4">Go to 4</label>
       </div>
     </div>
@@ -44,10 +44,8 @@
     <input id="card-4" name="card-set" type="radio" />
     <div card>
       <div class="content">
-        <h2>Step 4</h2>
-        <p>
-          Switch Pre-Processors. Because things are starting to get complicated.
-        </p>
+        <h2>Dit is een cool project</h2>
+        <p>Boopboop</p>
         <label for="card-5">Go to 5</label>
       </div>
     </div>
@@ -55,11 +53,8 @@
     <input id="card-5" name="card-set" type="radio" />
     <div card>
       <div class="content">
-        <h2>Step 5</h2>
-        <p>
-          Thow out your work start over, becasuse this time you definately
-          choose the right framework.
-        </p>
+        <h2>Dit is een cool project</h2>
+        <p>Boopboop</p>
         <label for="card-6">Go to 6</label>
       </div>
     </div>
@@ -67,8 +62,8 @@
     <input id="card-6" name="card-set" type="radio" />
     <div card>
       <div class="content">
-        <h2>Step 6</h2>
-        <p>Break down and cry.</p>
+        <h2>Dit is een cool project</h2>
+        <p>Boopboop</p>
         <label for="card-7">Go to 7</label>
       </div>
     </div>
@@ -76,8 +71,8 @@
     <input id="card-7" name="card-set" type="radio" />
     <div card>
       <div class="content">
-        <h2>Step 7</h2>
-        <p>Curl up in fetal position.</p>
+        <h2>Dit is een cool project</h2>
+        <p>Boopboop</p>
         <label for="card-8">Go to 8</label>
       </div>
     </div>
@@ -85,8 +80,8 @@
     <input id="card-8" name="card-set" type="radio" />
     <div card>
       <div class="content">
-        <h2>Step 8</h2>
-        <p>Write more CSS to cover up your already bad CSS.</p>
+        <h2>Dit is een cool project</h2>
+        <p>Boopboop</p>
         <label for="card-0">Start Over</label>
       </div>
     </div>
@@ -98,10 +93,11 @@ main {
   display: grid;
   justify-content: center;
   align-content: center;
-  height: 98vh;
+  min-height: 98vh;
 }
 
 [card-stack] {
+  height: 50vh;
   width: 20rem;
   position: relative;
   margin: 0 auto;
