@@ -170,7 +170,7 @@
       filter 0.1s;
     transition-timing-function: ease-in;
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    border-radius: 16px;
     justify-content: center;
     align-items: center;
     z-index: 1;
