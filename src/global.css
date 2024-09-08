@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --rose--500: #f43f5e;
-  --rose--400: #fb7185;
-  --rose--300: #fda4af;
+  --rose--500: #89181b;
+  --rose--400: #b11f22;
+  --rose--300: #dd1d24;
   --white--000: #fff;
+  --grey--000: #2c2c2c;
+  --black--000: #000000
 }
 
 body {
   font-family: 'Noto Sans';
-  background-color: var(--rose--300);
+  background-image: url('/background.png');
+  background-size: cover;
+  background-position: center;
 }

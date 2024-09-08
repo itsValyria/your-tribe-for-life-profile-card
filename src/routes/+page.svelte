@@ -1,6 +1,6 @@
 <script>
   import "../global.css";
-  export let data;
+  // export let data;
 </script>
 
 <main>
@@ -64,44 +64,27 @@
       <div class="content">
         <h2>Dit is een cool project</h2>
         <p>Boopboop</p>
-        <label for="card-7">Go to 7</label>
-      </div>
-    </div>
-
-    <input id="card-7" name="card-set" type="radio" />
-    <div card>
-      <div class="content">
-        <h2>Dit is een cool project</h2>
-        <p>Boopboop</p>
-        <label for="card-8">Go to 8</label>
-      </div>
-    </div>
-
-    <input id="card-8" name="card-set" type="radio" />
-    <div card>
-      <div class="content">
-        <h2>Dit is een cool project</h2>
-        <p>Boopboop</p>
         <label for="card-0">Start Over</label>
       </div>
     </div>
+    
   </div>
 </main>
 
 <style>
-main {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  min-height: 98vh;
-}
+  main {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 98vh;
+  }
 
-[card-stack] {
-  height: 50vh;
-  width: 20rem;
-  position: relative;
-  margin: 0 auto;
-}
+  [card-stack] {
+    height: 50vh;
+    width: 20rem;
+    position: relative;
+    margin: 0 auto;
+  }
 
   [name="card-set"] {
     display: none;
@@ -214,16 +197,16 @@ main {
     display: inline-block;
     padding: 1rem 2rem;
     margin: 1rem;
-    background-color: var(--rose--500);
+    background-color: var(--rose--400);
     border-radius: 200px;
     user-select: none;
   }
 
   [card] label:hover {
-    background-color: var(--rose--400);
+    background-color: var(--rose--300);
   }
 
   [card] label:active {
-    background-color: var(--rose--500);
+    background-color: var(--rose--400);
   }
 </style>
