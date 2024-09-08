@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@font-face {
+  font-family: 'CardC';
+  src: url(/CARDC.TTF);
+}
+
 :root {
   --rose--500: #89181b;
   --rose--400: #b11f22;
   --rose--300: #dd1d24;
+  --rose--200: #ff0000;
   --white--000: #fff;
   --grey--000: #2c2c2c;
   --black--000: #000000

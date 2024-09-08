@@ -7,64 +7,120 @@
   <div card-stack>
     <input id="card-0" name="card-set" type="radio" checked />
     <div card>
+      <div class="card-font upper">
+        <p class="red">3</p>
+        <img src="/heart.png" alt="heart">
+      </div>
       <div class="content">
         <h2>Dit is een cool project</h2>
         <p>Boopboop</p>
         <label for="card-1">Learn More</label>
       </div>
+      <div class="card-font lower reverse">
+        <p class="red">3</p>
+        <img src="/heart.png" alt="heart">
+      </div>
     </div>
 
     <input id="card-1" name="card-set" type="radio" />
     <div card>
+      <div class="card-font upper">
+        <p class="black">4</p>
+        <img src="/clover.png" alt="clover">
+      </div>
       <div class="content">
         <h2>Dit is een cool project</h2>
         <p>Boopboop</p>
         <label for="card-2">Go to 2</label>
       </div>
+      <div class="card-font lower reverse">
+        <p class="black">4</p>
+        <img src="/clover.png" alt="clover">
+      </div>
     </div>
 
     <input id="card-2" name="card-set" type="radio" />
     <div card>
+      <div class="card-font upper">
+        <p class="red">5</p>
+        <img src="/diamond.png" alt="diamond">
+      </div>
       <div class="content">
         <h2>Dit is een cool project</h2>
         <p>Boopboop</p>
         <label for="card-3">Go to 3</label>
       </div>
+      <div class="card-font lower reverse">
+        <p class="red">5</p>
+        <img src="/diamond.png" alt="diamond">
+      </div>
     </div>
 
     <input id="card-3" name="card-set" type="radio" />
     <div card>
+      <div class="card-font upper">
+        <p class="black">6</p>
+        <img src="/spades.png" alt="spades">
+      </div>
       <div class="content">
         <h2>Dit is een cool project</h2>
         <p>Boopboop</p>
         <label for="card-4">Go to 4</label>
       </div>
+      <div class="card-font lower reverse">
+        <p class="black">6</p>
+        <img src="/spades.png" alt="spades">
+      </div>
     </div>
 
     <input id="card-4" name="card-set" type="radio" />
     <div card>
+      <div class="card-font upper">
+        <p class="red">7</p>
+        <img src="/heart.png" alt="heart">
+      </div>
       <div class="content">
         <h2>Dit is een cool project</h2>
         <p>Boopboop</p>
         <label for="card-5">Go to 5</label>
       </div>
+      <div class="card-font lower reverse">
+        <p class="red">7</p>
+        <img src="/heart.png" alt="heart">
+      </div>
     </div>
 
     <input id="card-5" name="card-set" type="radio" />
     <div card>
+      <div class="card-font upper">
+        <p class="black">8</p>
+        <img src="/clover.png" alt="clover">
+      </div>
       <div class="content">
         <h2>Dit is een cool project</h2>
         <p>Boopboop</p>
         <label for="card-6">Go to 6</label>
       </div>
+      <div class="card-font lower reverse">
+        <p class="black">8</p>
+        <img src="/clover.png" alt="clover">
+      </div>
     </div>
 
     <input id="card-6" name="card-set" type="radio" />
     <div card>
+      <div class="card-font upper">
+        <p class="red">9</p>
+        <img src="/diamond.png" alt="diamond">
+      </div>
       <div class="content">
         <h2>Dit is een cool project</h2>
         <p>Boopboop</p>
         <label for="card-0">Start Over</label>
+      </div>
+      <div class="card-font lower reverse">
+        <p class="red">9</p>
+        <img src="/diamond.png" alt="diamond">
       </div>
     </div>
     
@@ -197,16 +253,57 @@
     display: inline-block;
     padding: 1rem 2rem;
     margin: 1rem;
-    background-color: var(--rose--400);
+    background-color: var(--rose--300);
     border-radius: 200px;
     user-select: none;
   }
 
   [card] label:hover {
-    background-color: var(--rose--300);
+    background-color: var(--rose--400);
   }
 
   [card] label:active {
-    background-color: var(--rose--400);
+    background-color: var(--rose--300);
+  }
+
+  [card] img {
+    height: 2rem;
+  }
+
+  .card-font {
+    font-family: 'CardC';
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-font p {
+    margin: 0;
+  }
+
+  .upper {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .lower {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
+
+  .reverse {
+    transform: rotate(180deg);
+  }
+
+  .red {
+    color: var(--rose--200);
+  }
+
+  .black {
+    color: var(--black--000);
   }
 </style>
