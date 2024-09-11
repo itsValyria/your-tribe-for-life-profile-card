@@ -1,6 +1,6 @@
 <script>
   import "../global.css";
-  // export let data;
+  export let data;
 </script>
 
 <main>
@@ -31,7 +31,7 @@
       <div class="content">
         <img class="profile-img" src="/image.jpg" alt="Eef on a hill">
         <h2>Who am I?</h2>
-        <p>I'm Eef, 21 years old, I live in Amsterdam and I love and hate coding at the same time. Ain't that great?</p>
+        <p>I'm {data.person.name}, 21 years old, I live in Amsterdam and I love and hate coding at the same time. Ain't that great?</p>
         <label for="card-2">Next</label>
       </div>
       <div class="card-font lower reverse">
