@@ -9,16 +9,16 @@
     <div card>
       <div class="card-font upper">
         <p class="red">3</p>
-        <img src="/heart.png" alt="heart">
+        <img class="card-icon" src="/heart.png" alt="heart">
       </div>
       <div class="content">
-        <h2>Dit is een cool project</h2>
-        <p>Boopboop</p>
-        <label for="card-1">Learn More</label>
+        <h2>My deck of cards.</h2>
+        <p>Wanna know more about me? Click the button below.</p>
+        <label for="card-1">Next</label>
       </div>
       <div class="card-font lower reverse">
         <p class="red">3</p>
-        <img src="/heart.png" alt="heart">
+        <img class="card-icon" src="/heart.png" alt="heart">
       </div>
     </div>
 
@@ -26,16 +26,17 @@
     <div card>
       <div class="card-font upper">
         <p class="black">4</p>
-        <img src="/clover.png" alt="clover">
+        <img class="card-icon" src="/clover.png" alt="clover">
       </div>
       <div class="content">
-        <h2>Dit is een cool project</h2>
-        <p>Boopboop</p>
-        <label for="card-2">Go to 2</label>
+        <img class="profile-img" src="/image.jpg" alt="Eef on a hill">
+        <h2>Who am I?</h2>
+        <p>I'm Eef, 21 years old, I live in Amsterdam and I love and hate coding at the same time. Ain't that great?</p>
+        <label for="card-2">Next</label>
       </div>
       <div class="card-font lower reverse">
         <p class="black">4</p>
-        <img src="/clover.png" alt="clover">
+        <img class="card-icon" src="/clover.png" alt="clover">
       </div>
     </div>
 
@@ -43,16 +44,17 @@
     <div card>
       <div class="card-font upper">
         <p class="red">5</p>
-        <img src="/diamond.png" alt="diamond">
+        <img class="card-icon" src="/diamond.png" alt="diamond">
       </div>
       <div class="content">
-        <h2>Dit is een cool project</h2>
-        <p>Boopboop</p>
-        <label for="card-3">Go to 3</label>
+        <img class="profile-img" src="/education.jpg" alt="Logo of the AUAS">
+        <h2>My education.</h2>
+        <p>I study Front-End Development and Design at the AUAS. If you don't know what it is, it's basically making websites like this one.</p>
+        <label for="card-3">Next</label>
       </div>
       <div class="card-font lower reverse">
         <p class="red">5</p>
-        <img src="/diamond.png" alt="diamond">
+        <img class="card-icon" src="/diamond.png" alt="diamond">
       </div>
     </div>
 
@@ -60,16 +62,17 @@
     <div card>
       <div class="card-font upper">
         <p class="black">6</p>
-        <img src="/spades.png" alt="spades">
+        <img class="card-icon" src="/spades.png" alt="spades">
       </div>
       <div class="content">
-        <h2>Dit is een cool project</h2>
-        <p>Boopboop</p>
-        <label for="card-4">Go to 4</label>
+        <img class="profile-img" src="/work.jpg" alt="Logo of the Netherlands Cancer Institute">
+        <h2>My work.</h2>
+        <p>Every other minute of my time I spend doing financial healthcare administration at the NKI. Oh btw, its a joke. I work 24 hours :&#41;</p>
+        <label for="card-4">Next</label>
       </div>
       <div class="card-font lower reverse">
         <p class="black">6</p>
-        <img src="/spades.png" alt="spades">
+        <img class="card-icon" src="/spades.png" alt="spades">
       </div>
     </div>
 
@@ -77,16 +80,17 @@
     <div card>
       <div class="card-font upper">
         <p class="red">7</p>
-        <img src="/heart.png" alt="heart">
+        <img class="card-icon" src="/heart.png" alt="heart">
       </div>
       <div class="content">
-        <h2>Dit is een cool project</h2>
-        <p>Boopboop</p>
-        <label for="card-5">Go to 5</label>
+        <img class="profile-img" src="/hobbies.jpg" alt="Gaming controller">
+        <h2>My hobbies.</h2>
+        <p>With my actual free time I like to take pictures and play videogames like Genshin Impact, Minecraft and Stardew Valley.</p>
+        <label for="card-5">Next</label>
       </div>
       <div class="card-font lower reverse">
         <p class="red">7</p>
-        <img src="/heart.png" alt="heart">
+        <img class="card-icon" src="/heart.png" alt="heart">
       </div>
     </div>
 
@@ -94,16 +98,17 @@
     <div card>
       <div class="card-font upper">
         <p class="black">8</p>
-        <img src="/clover.png" alt="clover">
+        <img class="card-icon" src="/clover.png" alt="clover">
       </div>
       <div class="content">
-        <h2>Dit is een cool project</h2>
-        <p>Boopboop</p>
-        <label for="card-6">Go to 6</label>
+        <img class="profile-img" src="/social.jpg" alt="Eef and friend on a beach">
+        <h2>My social life.</h2>
+        <p>I live with my parents, spend weekends with my boyfriend and I try to see my close friends on a regular basis. Yay!</p>
+        <label for="card-6">Next</label>
       </div>
       <div class="card-font lower reverse">
         <p class="black">8</p>
-        <img src="/clover.png" alt="clover">
+        <img class="card-icon" src="/clover.png" alt="clover">
       </div>
     </div>
 
@@ -111,16 +116,16 @@
     <div card>
       <div class="card-font upper">
         <p class="red">9</p>
-        <img src="/diamond.png" alt="diamond">
+        <img class="card-icon" src="/diamond.png" alt="diamond">
       </div>
       <div class="content">
-        <h2>Dit is een cool project</h2>
-        <p>Boopboop</p>
+        <h2>Aww, it's over.</h2>
+        <p>Did it go by too fast? Click the button below and start over.</p>
         <label for="card-0">Start Over</label>
       </div>
       <div class="card-font lower reverse">
         <p class="red">9</p>
-        <img src="/diamond.png" alt="diamond">
+        <img class="card-icon" src="/diamond.png" alt="diamond">
       </div>
     </div>
     
@@ -230,7 +235,7 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-    min-height: 50vh;
+    height: 28rem;
   }
 
   [card]::before {
@@ -266,8 +271,22 @@
     background-color: var(--rose--300);
   }
 
-  [card] img {
-    height: 2rem;
+  [card] img.card-icon {
+  height: 2rem;
+  }
+
+  [card] img.profile-img {
+    height: 8rem;
+    border-radius: 50%;
+    transition: 1s;
+  }
+
+  [card] img.profile-img:hover {
+    transform: rotate(360deg);
+  }
+
+  [card] h2 {
+    margin: 1rem 0 0.5rem 0;
   }
 
   .card-font {
