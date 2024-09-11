@@ -1,3 +1,5 @@
+export let csr = false
+
 export async function load() {
   try {
       const response = await fetch('https://fdnd.directus.app/items/person/');
