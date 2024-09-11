@@ -1,5 +1,4 @@
 <script>
-  import "../global.css";
   export let data;
 </script>
 
