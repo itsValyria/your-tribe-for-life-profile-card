@@ -136,13 +136,17 @@
     display: grid;
     justify-content: center;
     align-content: center;
-    min-height: 88vh;
+    min-height: 90vh;
+    position: relative;
   }
 
   [card-stack] {
     height: 50vh;
     width: 20rem;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin: 0 auto;
   }
 

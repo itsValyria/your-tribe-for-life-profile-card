@@ -25,6 +25,7 @@
     color: var(--white--000);
     opacity: 0.5;
     padding: 1rem 2rem;
+    padding-bottom: 0;
 
     display: flex;
     align-items: center;
