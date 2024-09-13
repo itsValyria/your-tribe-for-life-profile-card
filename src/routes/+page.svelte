@@ -136,7 +136,7 @@
     display: grid;
     justify-content: center;
     align-content: center;
-    min-height: 98vh;
+    min-height: 88vh;
   }
 
   [card-stack] {

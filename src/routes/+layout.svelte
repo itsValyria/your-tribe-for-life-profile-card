@@ -16,9 +16,27 @@
 </main>
 
 <footer>
-  <!-- Hier komt de footer -->
+  <p>Made with &lt;3 by Eef</p>
+  <a href="https://eefhaller.com/">eefhaller.com</a>
 </footer>
 
 <style>
-  /* Hier komt gedeelde styles voor elke pagina met deze lay-out */
+  footer {
+    color: var(--white--000);
+    opacity: 0.5;
+    padding: 1rem 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer a {
+    color: unset;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
 </style>
